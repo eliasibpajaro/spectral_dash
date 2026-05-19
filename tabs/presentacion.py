@@ -53,6 +53,22 @@ def layout():
                     )
                 ])
             ], style=CARD_STYLE), className="mb-5")),
+            html.P([
+                "En este video se presenta una introducción al framework de aprendizaje automático para la predicción de la aceleración picoefectiva en ingeniería sísmica, destacando su relevancia y potencial impacto en la seguridad estructural. ",
+                html.A(
+                    "Ver video en YouTube",
+                    href="https://youtu.be/rov29s6St3M",
+                    target="_blank",
+                    style={
+                        "color": "#2563EB",
+                        "fontWeight": "600",
+                        "textDecoration": "none"
+                    }
+                )
+            ],
+    className="mb-0",
+    style={"color": "#64748B"}
+)
 
         ], style=PAGE_STYLE)
     ], fluid=True)
